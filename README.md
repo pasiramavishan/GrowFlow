@@ -57,3 +57,17 @@ GrowFlow is a mobile application designed to help users monitor and control thei
 - The app listens to the MQTT topics and updates the UI in real-time.  
 - Users can toggle devices on/off manually or put them in automatic mode.  
 - Each device has a dedicated control panel showing live data and visual graphs.  
+
+
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/7bae6a66-5377-47e9-9251-106c3e7f136c" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/07fffd67-c9a7-4802-8845-8824c8756632" width="300"/></td>
+  </tr>
+</table>
+
+ 
+
+
+
+
