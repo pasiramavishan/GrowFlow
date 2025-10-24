@@ -62,19 +62,14 @@ GrowFlow is a mobile application designed to help users monitor and control thei
 <table>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/0bee2dfb-4968-4957-859a-258ad16bc611" width="300"/>
+      <img src="https://github.com/user-attachments/assets/0bee2dfb-4968-4957-859a-258ad16bc611" width="500"/>
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/fbdcee73-0e72-474a-a1af-bcebed13cb8b" width="300"/>
+      <img src="https://github.com/user-attachments/assets/fbdcee73-0e72-474a-a1af-bcebed13cb8b" width="500"/>
     </td>
   </tr>
 </table>
 
 
  
-
-![ezgif-8677e8a6c929b0-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/0bee2dfb-4968-4957-859a-258ad16bc611)
-
-
-![InShot_20250304_204025813-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/fbdcee73-0e72-474a-a1af-bcebed13cb8b)
 
