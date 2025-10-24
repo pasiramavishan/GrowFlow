@@ -1,5 +1,43 @@
 # GrowFlow
 
+## 🌱 GrowNet ESP32 Firmware
+
+### 📝 Overview
+GrowNet is a multi-node ESP32 network designed for **real-time sensor monitoring** and **device control**.  
+The system consists of a **main node** (bridge) and multiple **device nodes**, enabling communication via **ESP-NOW** while optionally connecting the main node to a Wi-Fi network (router or mobile hotspot).
+
+---
+
+### 🛠️ Firmware Architecture
+
+#### 🌐 Main Node (Bridge Node)
+The main node acts as the central hub with these responsibilities:
+- 🔗 **Network Management:** Connects to a Wi-Fi network chosen by the user.
+- 📡 **ESP-NOW Coordination:** Maintains communication with all ESP32 device nodes.
+- 🔄 **Data Forwarding:** Relays sensor and control messages between device nodes and the router/hotspot.
+- 🎚️ **Channel Management:** Dynamically sets the Wi-Fi channel to match connected peers.
+- ⏱️ **Scheduling:** Periodically sends its own sensor data and relays data from other nodes.
+
+#### 🤖 Device Nodes
+Each device node functions as a sensor and actuator endpoint:
+- 🌡️ **Sensor Monitoring:** Reads local sensor data (e.g., temperature, humidity, pH, battery/charge status).
+- 🎛️ **Control Handling:** Receives control commands from the main node or peers for automatic or manual operation.
+- 📡 **ESP-NOW Communication:** Sends sensor data to the main node and receives forwarded messages.
+- 🔍 **Peer Discovery:** Scans and adds nearby ESP32 devices as peers automatically.
+- 🔄 **Message Forwarding:** Forwards messages not intended for itself to other peers to maintain network-wide communication.
+
+---
+
+### ✨ Features
+- 📡 **Multi-device Communication:** Direct ESP-NOW communication between nodes without Wi-Fi dependency.
+- ⚙️ **Automatic/Manual Modes:** Users can control devices manually or allow automatic operation.
+- 🤝 **Dynamic Peer Management:** Nodes automatically detect and manage peers.
+- 🌐 **Bridge Functionality:** Main node connects to Wi-Fi and relays data for remote monitoring.
+- 🔔 **Notifications:** Receive updates when device states (e.g., watering system) are toggled.
+
+---
+
+
 ## GrowFlow Mobile App 🌿
 
 GrowFlow is a mobile application designed to help users monitor and control their IoT-enabled plant devices. The app supports both real-time monitoring and device control, making plant care smarter and easier.
