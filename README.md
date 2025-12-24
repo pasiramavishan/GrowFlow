@@ -37,6 +37,10 @@ Each device node functions as a sensor and actuator endpoint:
 
 ---
 
+https://github.com/user-attachments/assets/2996a79c-5b50-44c8-99ba-38fa615fbfe3
+
+
+
 
 ## GrowFlow Mobile App 🌿
 
